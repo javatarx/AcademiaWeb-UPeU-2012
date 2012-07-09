@@ -18,7 +18,7 @@
 	<bean id="sessionFactory" 
 		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean"
 		p:dataSource-ref="dataSource" p:configLocation="${hibernate.config}"
-		p:packagesToScan="edu.pe.acweb.domain" />
+		p:packagesToScan="edu.upeu.acweb.domain" />
 
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
 		destroy-method="close" p:driverClass="${app.jdbc.driverClassName}"

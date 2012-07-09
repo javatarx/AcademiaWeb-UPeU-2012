@@ -1,11 +1,11 @@
-package edu.pe.acweb.web.controller;
+package edu.upeu.acweb.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import edu.pe.acweb.web.form.LoginForm;
+import edu.upeu.acweb.web.form.LoginForm;
 
 @Controller
 public class LoginController {
