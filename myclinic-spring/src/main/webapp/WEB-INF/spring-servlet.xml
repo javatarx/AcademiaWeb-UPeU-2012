@@ -9,8 +9,8 @@
 		p:prefix="/WEB-INF/pages/" p:suffix=".jsp" />
 
 	<!-- Returns messages based on a resource bundle -->
-	<bean id="messageSource"
-		class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
-		<property name="basename" value="/WEB-INF/messages/validation" />
-	</bean>
+<!-- 	<bean id="messageSource" -->
+<!-- 		class="org.springframework.context.support.ReloadableResourceBundleMessageSource"> -->
+<!-- 		<property name="basename" value="/WEB-INF/messages/validation" /> -->
+<!-- 	</bean> -->
 </beans>

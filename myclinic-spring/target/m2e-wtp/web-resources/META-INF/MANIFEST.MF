@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: Nakama
-Build-Jdk: 1.7.0_04
+Built-By: JSempai
+Build-Jdk: 1.7.0_03
 Created-By: Maven Integration for Eclipse
 
